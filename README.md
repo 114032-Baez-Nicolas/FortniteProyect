@@ -9,7 +9,6 @@ Este proyecto es el backend de una aplicación diseñada para consultar datos y 
 - **Java 17** (Azul Zulu 17.0.12)
 - **Maven 3**
 - **Spring Boot**
-- **Resilience4j**: Circuit Breaker para mejorar la resiliencia ante fallos en la API externa.
 - **Docker** y **Docker Compose**
 - **JUnit 5** y **Mockito**: Pruebas unitarias e integración.
 
