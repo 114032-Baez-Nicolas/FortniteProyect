@@ -48,10 +48,8 @@ public class FortniteControllerExternal {
 
     //4) Get shop
     @GetMapping("/shop")
-    public ShopCommonDTO getShop(
-            @RequestParam(value = "price", required = false) Integer price,
-            @RequestParam(value = "type", required = false) String type) {
-        return shopService.getShop(price, type);
+    public ShopCommonDTO getShop(@RequestParam(value = "price", required = false) Integer price) {
+        return shopService.getShop(price);
     }
 
     //5) Get cosmetics

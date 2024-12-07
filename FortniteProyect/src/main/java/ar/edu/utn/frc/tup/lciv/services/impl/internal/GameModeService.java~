@@ -23,7 +23,6 @@ public class GameModeService implements IGameModeService {
                 .map(mode -> GameModeDTO.builder()
                         .name(mode.getName())
                         .usePercentage(mode.getUsePercentage())
-                        .id(mode.getId())
                         .image(mode.getImage())
                         .description(mode.getDescription())
                         .build())

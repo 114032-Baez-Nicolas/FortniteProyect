@@ -21,7 +21,6 @@ public class ShopClientDTO {
     @NoArgsConstructor
     @JsonIgnoreProperties(ignoreUnknown = true)
     public static class ShopData {
-        private String hash;
         private String date;
         private String vbuckIcon;
         private List<Entry> entries;
@@ -32,26 +31,73 @@ public class ShopClientDTO {
     @NoArgsConstructor
     @JsonIgnoreProperties(ignoreUnknown = true)
     public static class Entry {
+        private String offerId;
+        private String devName;
         private int regularPrice;
         private int finalPrice;
-        private String devName;
-        private String offerId;
-        private String inDate;
-        private String outDate;
         private boolean giftable;
         private boolean refundable;
-        private Layout layout;
+        private Bundle bundle;
+        private List<BrItem> brItems;
         private List<Track> tracks;
-        private OfferTag offerTag;
 
         @Data
         @AllArgsConstructor
         @NoArgsConstructor
         @JsonIgnoreProperties(ignoreUnknown = true)
-        public static class Layout {
+        public static class Bundle {
+            private String name;
+            private String info;
+            private String image;
+        }
+
+        @Data
+        @AllArgsConstructor
+        @NoArgsConstructor
+        @JsonIgnoreProperties(ignoreUnknown = true)
+        public static class BrItem {
             private String id;
             private String name;
-            private String category;
+            private String description;
+            private Rarity rarity;
+            private Introduction introduction;
+            private Images images;
+            private Type type;
+
+            @Data
+            @AllArgsConstructor
+            @NoArgsConstructor
+            @JsonIgnoreProperties(ignoreUnknown = true)
+            public static class Rarity {
+                private String displayValue;
+            }
+
+            @Data
+            @AllArgsConstructor
+            @NoArgsConstructor
+            @JsonIgnoreProperties(ignoreUnknown = true)
+            public static class Introduction {
+                private String chapter;
+                private String season;
+                private String text;
+            }
+
+            @Data
+            @AllArgsConstructor
+            @NoArgsConstructor
+            @JsonIgnoreProperties(ignoreUnknown = true)
+            public static class Images {
+                private String featured;
+            }
+
+            @Data
+            @AllArgsConstructor
+            @NoArgsConstructor
+            @JsonIgnoreProperties(ignoreUnknown = true)
+            public static class Type {
+                private String value;
+                private String displayValue;
+            }
         }
 
         @Data
@@ -60,18 +106,10 @@ public class ShopClientDTO {
         @JsonIgnoreProperties(ignoreUnknown = true)
         public static class Track {
             private String id;
+            private String devName;
             private String title;
             private String artist;
             private String albumArt;
-        }
-
-        @Data
-        @AllArgsConstructor
-        @NoArgsConstructor
-        @JsonIgnoreProperties(ignoreUnknown = true)
-        public static class OfferTag {
-            private String id;
-            private String text;
         }
     }
 }

@@ -65,7 +65,7 @@ public class GameModeServiceTest {
         List<GameModeDTO> result = gameModeService.getGameModesOrdered();
 
         assertEquals(3, result.size());
-
+        
         assertEquals("Fortnite OG (Building)", result.get(0).getName());
         assertEquals(50.0, result.get(0).getUsePercentage());
         assertEquals("2", result.get(0).getId());

@@ -22,7 +22,4 @@ public class gameModeClientDTO {
 
     @JsonProperty("image")
     private String image;
-
-    @JsonProperty("description")
-    private String description;
 }

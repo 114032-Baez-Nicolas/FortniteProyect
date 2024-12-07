@@ -24,7 +24,10 @@ public class ShopService implements IShopService {
         ShopClientDTO shopClientDTO = fortniteClientExternal.getShopData();
 
         List<ShopClientDTO.Entry> entries = shopClientDTO.getData().getEntries();
+
+        // Usamos un Set para eliminar duplicados basados en el ID del elemento
         Set<String> uniqueIds = new HashSet<>();
+
         List<ShopCommonDTO.Item> items = entries.stream()
                 .flatMap(entry -> {
                     if (entry.getTracks() != null && !entry.getTracks().isEmpty()) {
@@ -76,3 +79,4 @@ public class ShopService implements IShopService {
         );
     }
 }
+

@@ -18,12 +18,19 @@ public class ShopCommonDTO {
     @AllArgsConstructor
     @NoArgsConstructor
     public static class Item {
+        private String id;
         private String name;
+        private String description;
         private int price;
-        private String offerId;
-        private boolean giftable;
-        private boolean refundable;
+        private String rarity;
+        private String introductionText;
+        private String chapter;
+        private String season;
+        private String featuredImage;
         private String artist;
         private String albumArt;
+        private String bundleImage;
+        private String type;
     }
 }
+
