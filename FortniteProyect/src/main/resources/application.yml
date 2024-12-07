@@ -1,0 +1,17 @@
+app:
+  name: '@project.name@'
+  desc: '@project.description@'
+  version: '@project.version@'
+  url: http://localhost:8080
+  dev-name: None
+  dev-email: none@none.com
+
+server:
+  port: 8080
+
+springdoc:
+  packages-to-scan: ar.edu.utn.frc.tup.lciv.controllers
+  show-actuator: true
+  swagger-ui:
+    disable-swagger-default-url: true
+    path: /swagger-ui.html

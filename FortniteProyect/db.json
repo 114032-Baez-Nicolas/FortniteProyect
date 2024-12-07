@@ -1,0 +1,496 @@
+{
+  "events": [
+    {
+      "name": "The Grand Finale",
+      "players": 14000000,
+      "image": "https://cdn2.unrealengine.com/fortnite-remix-the-finale-key-art-1920x1080-88fb79e7db63.jpg"
+    },
+    {
+      "name": "The Big Bang",
+      "players": 11616374,
+      "image": "https://cdn2.unrealengine.com/es-mx-1920x1080-09f246083f10.jpg"
+    },
+    {
+      "name": "Travis Scott",
+      "players": 12300000,
+      "image": "https://cdn2.unrealengine.com/Fortnite%2Fblog%2Fastronomical%2FGlobal_12BR_Cyclone_Astronomical_News_PartnerShare_v1-1920x1080-5f0e638a84b84e4493c0aca91b9b9b2c2f8a027e.jpg"
+    },
+    {
+      "name": "Galactus Event",
+      "players": 15300000,
+      "image": "https://cdn2.unrealengine.com/the-fortnite-galactus-event-1920x1080-616231251.jpg"
+    }
+  ],
+  "skins": [
+    {
+      "name": "Aura",
+      "use_percentage": 3.781,
+      "use_total": 11800000,
+      "image": "https://media.fortniteapi.io/images/cosmetics/6af5fb0c4127ab98be084d6ec5ed499c/v2/MI_cid_397_f_treasurehunterfashion_02/background.png"
+    },
+    {
+      "name": "Surf Witch",
+      "use_percentage": 3.682,
+      "use_total": 10800000,
+      "image": "https://media.fortniteapi.io/images/cosmetics/0a516b5a4fdf57074e8e0a63737ea4bf/v2/MI_CID_805_F_PunkDevilSummer/background.png"
+    },
+    {
+      "name": "Backlash",
+      "use_percentage": 3.47,
+      "use_total": 10800000,
+      "image": "https://media.fortniteapi.io/images/cosmetics/10152349852b512cf59d93156e451ca7/v2/MI_CID_861_F_Elastic_B/background.png"
+    },
+    {
+      "name": "Focus",
+      "use_percentage": 3.418,
+      "use_total": 10700000,
+      "image": "https://media.fortniteapi.io/images/cosmetics/3f9527a18c9da23166b91a1c63bc9faf/v2/MI_CID_452_F_CyberFu_02/background.png"
+    },
+    {
+      "name": "Joltara",
+      "use_percentage": 3.183,
+      "use_total": 9900000,
+      "image": "https://media.fortniteapi.io/images/cosmetics/5d6b82ff761b71350a84f2ed1fe9275f/v2/MI_CID_864_F_Elastic_E/background.png"
+    }
+  ],
+  "player_peaks": [
+    {
+      "chapter": 1,
+      "players": 125000000
+    },
+    {
+      "chapter": 2,
+      "players": 250000000
+    },
+    {
+      "chapter": 3,
+      "players": 250000000
+    },
+    {
+      "chapter": 4,
+      "players": 250000000
+    },
+    {
+      "chapter": 5,
+      "players": 250000000
+    }
+  ],
+  "pickaxes": [
+    {
+      "name": "Star Wand",
+      "use_percentage": 20,
+      "image": "https://fortnite.gg/img/items/2642/bg.jpg?2"
+    },
+    {
+      "name": "Reaper Pickaxe",
+      "use_percentage": 15,
+      "image": "https://fortnite.gg/img/items/2555/bg.jpg?2"
+    },
+    {
+      "name": "Driver Pickaxe",
+      "use_percentage": 10,
+      "image": "https://fortnite.gg/img/items/2336/bg.jpg?2"
+    },
+    {
+      "name": "Candy Axe",
+      "use_percentage": 8,
+      "image": "https://fortnite.gg/img/items/2268/bg.jpg?2"
+    },
+    {
+      "name": "Harley Hitter",
+      "use_percentage": 6,
+      "image": "https://fortnite.gg/img/items/2408/bg.jpg?19"
+    }
+  ],
+  "game_modes": [
+    {
+      "name": "Battle Royale (Building)",
+      "use_percentage": 40
+    },
+    {
+      "name": "Battle Royale (Zero Build)",
+      "use_percentage": 35
+    },
+    {
+      "name": "Creative Mode",
+      "use_percentage": 15
+    },
+    {
+      "name": "Save the World",
+      "use_percentage": 5
+    },
+    {
+      "name": "Events & Limited-Time Modes",
+      "use_percentage": 5
+    }
+  ],
+  "maps_zones": [
+    {
+      "name": "Tilted Towers",
+      "chapter": 1
+    },
+    {
+      "name": "Paradise Palms",
+      "chapter": 1,
+      "season": 5
+    },
+    {
+      "name": "Lazy Lake",
+      "chapter": 2
+    },
+    {
+      "name": "Reality Falls",
+      "chapter": 3
+    }
+  ],
+  "rarities_with_skins": [
+    {
+      "name": "Marvel",
+      "total_skins": 58,
+      "image": "https://tvazteca.brightspotcdn.com/5a/63/c1ac849141fdb1b9fbcd6ec52450/lol-twfortnite.jpg"
+    },
+    {
+      "name": "DC Comics",
+      "total_skins": 32,
+      "image": "https://www.gamespot.com/a/uploads/original/1745/17457013/3966145-dcskins.png"
+    },
+    {
+      "name": "Star Wars",
+      "total_skins": 21,
+      "image": "https://cdn.mos.cms.futurecdn.net/sXvRmtSwd9RwetYuooWiRP.jpg"
+    },
+    {
+      "name": "Gaming Legends Series",
+      "total_skins": 25,
+      "image": "https://admin.esports.gg/wp-content/uploads/2024/01/Fortnite-Gaming-Legends-Series.jpg"
+    },
+    {
+      "name": "Icon Series",
+      "total_skins": 20,
+      "image": "https://www.gamespot.com/a/uploads/original/1632/16320660/3872378-1%2810%29.jpg"
+    }
+  ],
+  "top_players": {
+    "chapter_1": [
+      {
+        "name": "Ninja",
+        "description": "Ninja is a professional Fortnite player, Twitch streamer, and YouTuber. He is one of the most popular streamers in the world and has millions of followers on Twitch and YouTube. He is known for his high-energy streams and his skill in Fortnite.",
+        "image": "https://www.theloadout.com/wp-content/uploads/2019/09/ninja-red-bull-streaming.jpeg"
+      },
+      {
+        "name": "Tfue",
+        "description": "Tfue is a professional Fortnite player, Twitch streamer, and YouTuber. He is a former member of FaZe Clan and is currently a member of the organization NRG Esports. He is considered one of the best Fortnite players in the world.",
+        "image": "https://admin.esports.gg/wp-content/uploads/2023/11/Tfue-Kick-deal.jpg"
+      },
+      {
+        "name": "Myth",
+        "description": "Myth is a professional Fortnite player, Twitch streamer, and YouTuber. He is a former member of TSM and is currently a member of the organization Team SoloMid. He is known for his high-energy streams and his skill in Fortnite.",
+        "image": "https://images.mein-mmo.de/medien/2023/03/fortnite-myth.jpg"
+      }
+    ],
+    "chapter_2": [
+      {
+        "name": "Bugha",
+        "description": "Bugha is a professional Fortnite player and the winner of the 2019 Fortnite World Cup. He is known for his high-energy streams and his skill in Fortnite.",
+        "image": "https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/07/28190834/bugha-campeon-fortnite-3.jpg"
+      },
+      {
+        "name": "Benjyfishy",
+        "description": "Benjyfishy is a professional Fortnite player and Twitch streamer. He is known for his high-energy streams and his skill in Fortnite.",
+        "image": "https://blix.gg/wp-content/uploads/2024/10/717a535b56825635.jpeg"
+      },
+      {
+        "name": "Mongraal",
+        "description": "Mongraal is a professional Fortnite player and Twitch streamer. He is known for his high-energy streams and his skill in Fortnite.",
+        "image": "https://c.files.bbci.co.uk/E932/production/_101089695_kyle.jpg"
+      }
+    ],
+    "chapter_3": [
+      {
+        "name": "Peterbot",
+        "description": "Peterbot is a professional Fortnite player and Twitch streamer. He is known for his high-energy streams and his skill in Fortnite.",
+        "image": "https://cdn-0001.qstv.on.epicgames.com/ncCCWysZyCtQXbCNHn/image/landscape_comp.jpeg"
+      },
+      {
+        "name": "Pollo",
+        "description": "Pollo is a professional Fortnite player and Twitch streamer. He is known for his high-energy streams and his skill in Fortnite.",
+        "image": "https://cdn-0001.qstv.on.epicgames.com/ZLYmVWUjCUyupHjmUL/image/landscape_comp.jpeg"
+      },
+      {
+        "name": "Reet",
+        "description": "Reet is a professional Fortnite player and Twitch streamer. He is known for his high-energy streams and his skill in Fortnite.",
+        "image": "https://pbs.twimg.com/media/FkdQ7mIXoAEqtWl.jpg:large"
+      }
+    ],
+    "chapter_4": [
+      {
+        "name": "Kami",
+        "description": "Kami is a professional Fortnite player and Twitch streamer. He is known for his high-energy streams and his skill in Fortnite.",
+        "image": "https://respawn.pl/wp-content/uploads/2024/01/14.png.webp"
+      },
+      {
+        "name": "Setty",
+        "description": "Setty is a professional Fortnite player and Twitch streamer. He is known for his high-energy streams and his skill in Fortnite.",
+        "image": "https://www.gamereactor.es/media/31/becomelegendsu2019setty_3903113b.jpg"
+      },
+      {
+        "name": "Bugha",
+        "description": "Bugha is a professional Fortnite player and the winner of the 2019 Fortnite World Cup. He is known for his high-energy streams and his skill in Fortnite.",
+        "image": "https://cdn12.idcgames.com/storage/image/1103/bugha/default.jpg"
+      }
+    ],
+    "chapter_5": [
+      {
+        "name": "Volkzy",
+        "description": "Volkzy is a professional Fortnite player and Twitch streamer. He is known for his high-energy streams and his skill in Fortnite. (there is no image)",
+        "image": "https://motionbgs.com/media/2581/valkyrie-fortnite.jpg"
+      },
+      {
+        "name": "Peterbot",
+        "description": "Peterbot is a professional Fortnite player and Twitch streamer. He is known for his high-energy streams and his skill in Fortnite.",
+        "image": "https://cdn-0001.qstv.on.epicgames.com/sJeGXhltaJrWrzFQwA/image/landscape_comp.jpeg"
+      },
+      {
+        "name": "Pollo",
+        "description": "Pollo is a professional Fortnite player and Twitch streamer. He is known for his high-energy streams and his skill in Fortnite.",
+        "image": "https://cdn-0001.qstv.on.epicgames.com/AaMjDtpSCMHfziiFqL/image/landscape_comp.jpeg"
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "name": "Chapter 1",
+      "image": "https://cdn-0001.qstv.on.epicgames.com/SQGMQIBtOfJFzTEwaK/image/landscape_comp.jpeg",
+      "seasons": [
+        {
+          "numberSeason": 1,
+          "name": "Season 1: No Specific Name",
+          "start_date": "2017-10-25",
+          "end_date": "2017-12-13"
+        },
+        {
+          "numberSeason": 2,
+          "name": "Season 2: Knights",
+          "start_date": "2017-12-14",
+          "end_date": "2018-02-21"
+        },
+        {
+          "numberSeason": 3,
+          "name": "Season 3: Outer Space",
+          "start_date": "2018-02-22",
+          "end_date": "2018-04-30"
+        },
+        {
+          "numberSeason": 4,
+          "name": "Season 4: Impact",
+          "start_date": "2018-05-01",
+          "end_date": "2018-07-12"
+        },
+        {
+          "numberSeason": 5,
+          "name": "Season 5: Worlds Collide",
+          "start_date": "2018-07-12",
+          "end_date": "2018-09-27"
+        },
+        {
+          "numberSeason": 6,
+          "name": "Season 6: Darkness Rises",
+          "start_date": "2018-09-27",
+          "end_date": "2018-12-05"
+        },
+        {
+          "numberSeason": 7,
+          "name": "Season 7: Winter Showdown",
+          "start_date": "2018-12-06",
+          "end_date": "2019-02-27"
+        },
+        {
+          "numberSeason": 8,
+          "name": "Season 8: X Marks the Spot",
+          "start_date": "2019-02-28",
+          "end_date": "2019-05-08"
+        },
+        {
+          "numberSeason": 9,
+          "name": "Season 9: The Future is Now",
+          "start_date": "2019-05-09",
+          "end_date": "2019-07-31"
+        },
+        {
+          "numberSeason": 10,
+          "name": "Season X: Out of Time",
+          "start_date": "2019-08-01",
+          "end_date": "2019-10-13"
+        }
+      ]
+    },
+    {
+      "name": "Chapter 2",
+      "image": "https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/JF4KU6AVYNFYTMVLGB2Z2S2JBY.jpg",
+      "seasons": [
+        {
+          "numberSeason": 1,
+          "name": "Season 1: New Beginnings",
+          "start_date": "2019-10-15",
+          "end_date": "2020-02-20"
+        },
+        {
+          "numberSeason": 2,
+          "name": "Season 2: Top Secret",
+          "start_date": "2020-02-20",
+          "end_date": "2020-06-17"
+        },
+        {
+          "numberSeason": 3,
+          "name": "Season 3: Submerged",
+          "start_date": "2020-06-17",
+          "end_date": "2020-08-26"
+        },
+        {
+          "numberSeason": 4,
+          "name": "Season 4: The Nexus War",
+          "start_date": "2020-08-27",
+          "end_date": "2020-12-01"
+        },
+        {
+          "numberSeason": 5,
+          "name": "Season 5: Zero Point",
+          "start_date": "2020-12-02",
+          "end_date": "2021-03-16"
+        },
+        {
+          "numberSeason": 6,
+          "name": "Season 6: Primal Instincts",
+          "start_date": "2021-03-16",
+          "end_date": "2021-06-07"
+        },
+        {
+          "numberSeason": 7,
+          "name": "Season 7: Invasion",
+          "start_date": "2021-06-08",
+          "end_date": "2021-09-12"
+        },
+        {
+          "numberSeason": 8,
+          "name": "Season 8: Cubed",
+          "start_date": "2021-09-13",
+          "end_date": "2021-12-04"
+        }
+      ]
+    },
+    {
+      "name": "Chapter 3",
+      "image": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/12/nuevo-mapa-fortnite-capitulo-3-temporada-1-2552513.jpg",
+      "seasons": [
+        {
+          "numberSeason": 1,
+          "name": "Season 1: Flipped",
+          "start_date": "2021-12-05",
+          "end_date": "2022-03-19"
+        },
+        {
+          "numberSeason": 2,
+          "name": "Season 2: Resistance",
+          "start_date": "2022-03-20",
+          "end_date": "2022-06-04"
+        },
+        {
+          "numberSeason": 3,
+          "name": "Season 3: Vibin'",
+          "start_date": "2022-06-05",
+          "end_date": "2022-09-17"
+        },
+        {
+          "numberSeason": 4,
+          "name": "Season 4: Paradise",
+          "start_date": "2022-09-18",
+          "end_date": "2022-12-03"
+        }
+      ]
+    },
+    {
+      "name": "Chapter 4",
+      "image": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/12/fortnite-capitulo-4-temporada-1-nuevo-mapa-2891734.jpg",
+      "seasons": [
+        {
+          "numberSeason": 1,
+          "name": "Season 1: Adventures",
+          "start_date": "2022-12-04",
+          "end_date": "2023-03-10"
+        },
+        {
+          "numberSeason": 2,
+          "name": "Season 2: Mega",
+          "start_date": "2023-03-10",
+          "end_date": "2023-06-09"
+        },
+        {
+          "numberSeason": 3,
+          "name": "Season 3: Wilds",
+          "start_date": "2023-06-09",
+          "end_date": "2023-08-25"
+        },
+        {
+          "numberSeason": 4,
+          "name": "Season 4: High Stakes",
+          "start_date": "2023-08-26",
+          "end_date": "2023-11-02"
+        },
+        {
+          "numberSeason": 5,
+          "name": "Season 5: Fortnite OG",
+          "start_date": "2023-11-03",
+          "end_date": "2023-12-02"
+        }
+      ]
+    },
+    {
+      "name": "Chapter 5",
+      "image": "https://admin.esports.gg/wp-content/uploads/2024/08/Fortnite-Season-5-Chapter-4-map.jpg",
+      "seasons": [
+        {
+          "numberSeason": 1,
+          "name": "Season 1: Counterculture",
+          "start_date": "2023-12-03",
+          "end_date": "2024-03-08"
+        },
+        {
+          "numberSeason": 2,
+          "name": "Season 2: Myths and Mortals",
+          "start_date": "2024-03-08",
+          "end_date": "2024-05-24"
+        },
+        {
+          "numberSeason": 3,
+          "name": "Season 3: Frenzy",
+          "start_date": "2024-05-24",
+          "end_date": "2024-08-16"
+        },
+        {
+          "numberSeason": 4,
+          "name": "Season 4: Doom Alert",
+          "start_date": "2024-08-16",
+          "end_date": "2024-11-02"
+        },
+        {
+          "numberSeason": 5,
+          "name": "Season 5: Fortnite Remix",
+          "start_date": "2024-11-02",
+          "end_date": "2024-12-02"
+        }
+      ]
+    },
+    {
+      "name": "Chapter 6",
+      "image": "https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/TGL4JYQIIJDDDJNZXXEM3CM2EI.jpg",
+      "seasons": [
+        {
+          "numberSeason": 1,
+          "name": "Season 1: Demon Hunt",
+          "start_date": "2024-11-02",
+          "end_date": "2025-02-21"
+        }
+      ]
+    }
+  ]
+}
