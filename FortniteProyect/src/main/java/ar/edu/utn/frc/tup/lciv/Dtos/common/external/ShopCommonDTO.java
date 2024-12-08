@@ -27,10 +27,7 @@ public class ShopCommonDTO {
         private String chapter;
         private String season;
         private String featuredImage;
-        private String artist;
-        private String albumArt;
-        private String bundleImage;
+        private String offerImage;
         private String type;
     }
 }
-

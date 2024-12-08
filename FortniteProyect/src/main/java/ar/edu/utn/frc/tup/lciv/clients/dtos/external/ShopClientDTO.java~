@@ -42,7 +42,7 @@ public class ShopClientDTO {
         private List<Track> tracks;
         @JsonProperty("images")
         private Images images;
-        private NewDisplayAsset newDisplayAsset;
+        private NewDisplayAsset newDisplayAsset; // Nuevo campo
 
         @Data
         @AllArgsConstructor
@@ -62,7 +62,7 @@ public class ShopClientDTO {
         private String id;
         private String cosmeticId;
         private List<MaterialInstance> materialInstances;
-        private List<RenderImage> renderImages;
+        private List<RenderImage> renderImages; // Nuevo campo para las imágenes renderizadas
 
         @Data
         @AllArgsConstructor
@@ -89,7 +89,7 @@ public class ShopClientDTO {
         public static class RenderImage {
             private String productTag;
             private String fileName;
-            private String image;
+            private String image; // Ruta de la imagen
         }
     }
 
@@ -164,3 +164,4 @@ public class ShopClientDTO {
         private String albumArt;
     }
 }
+
