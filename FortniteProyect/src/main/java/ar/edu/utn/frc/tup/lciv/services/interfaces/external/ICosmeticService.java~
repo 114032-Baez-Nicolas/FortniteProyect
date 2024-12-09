@@ -7,5 +7,5 @@ import java.util.List;
 
 @Service
 public interface ICosmeticService {
-    List<CosmeticCommonDTO> getCosmetics(String name, String rarity, String chapter, String type, int limit);
+    List<CosmeticCommonDTO> getCosmetics(String name, String rarity, String chapter, int limit);
 }

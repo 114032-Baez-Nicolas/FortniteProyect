@@ -53,6 +53,7 @@ public class CosmeticServiceTest {
 
         assertEquals(2, result.size());
 
+        // Verify the first cosmetic
         CosmeticCommonDTO cosmetic1 = result.get(0);
         assertEquals("1", cosmetic1.getId());
         assertEquals("Cosmetic 1", cosmetic1.getName());
@@ -62,6 +63,7 @@ public class CosmeticServiceTest {
         assertEquals("remix", cosmetic1.getSeason());
         assertEquals("Icon URL", cosmetic1.getIcon());
 
+        // Verify the second cosmetic
         CosmeticCommonDTO cosmetic2 = result.get(1);
         assertEquals("2", cosmetic2.getId());
         assertEquals("Cosmetic 2", cosmetic2.getName());

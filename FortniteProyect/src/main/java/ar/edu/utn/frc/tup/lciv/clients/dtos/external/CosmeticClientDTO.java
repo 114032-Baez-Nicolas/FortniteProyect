@@ -74,6 +74,10 @@ public class CosmeticClientDTO {
         public static class Images {
             private String smallIcon;
             private String icon;
+
+            public Images(String icon) {
+                this.icon = icon;
+            }
         }
     }
 }

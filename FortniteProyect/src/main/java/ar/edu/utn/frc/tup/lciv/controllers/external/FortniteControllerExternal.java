@@ -60,8 +60,9 @@ public class FortniteControllerExternal {
             @RequestParam(required = false) String name,
             @RequestParam(required = false) String rarity,
             @RequestParam(required = false) String chapter,
+            @RequestParam(required = false) String type,
             @RequestParam(defaultValue = "10") int limit
     ) {
-        return cosmeticService.getCosmetics(name, rarity, chapter, limit);
+        return cosmeticService.getCosmetics(name, rarity, chapter, type, limit);
     }
 }

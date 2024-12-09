@@ -17,18 +17,29 @@ public class CosmeticService implements ICosmeticService {
     private final FortniteClientExternal fortniteClientExternal;
 
     @Override
-    public List<CosmeticCommonDTO> getCosmetics(String name, String rarity, String chapter, int limit) {
-        if (limit > 50) {
-            throw new IllegalArgumentException("El límite no puede ser mayor a 50.");
+    public List<CosmeticCommonDTO> getCosmetics(String name, String rarity, String chapter, String type, int limit) {
+        if (limit > 2500) {
+            throw new IllegalArgumentException("El límite no puede ser mayor a 2500.");
         }
 
         CosmeticClientDTO cosmeticClientDTO = fortniteClientExternal.getCosmeticData();
 
         return cosmeticClientDTO.getData().getBr().stream()
+                .peek(cosmetic -> {
+                    if (cosmetic.getIntroduction() != null
+                            && "2".equals(cosmetic.getIntroduction().getChapter())
+                            && "remix".equalsIgnoreCase(cosmetic.getIntroduction().getSeason())) {
+                        cosmetic.getIntroduction().setChapter("5");
+                    }
+                })
                 .filter(cosmetic -> name == null || cosmetic.getName().toLowerCase().contains(name.toLowerCase()))
                 .filter(cosmetic -> rarity == null || rarity.equalsIgnoreCase(cosmetic.getRarity().getValue()))
                 .filter(cosmetic -> chapter == null || (cosmetic.getIntroduction() != null
                         && chapter.equalsIgnoreCase(cosmetic.getIntroduction().getChapter())))
+                .filter(cosmetic -> cosmetic.getType() == null
+                        || (!"emoji".equalsIgnoreCase(cosmetic.getType().getValue())
+                        && !"pet".equalsIgnoreCase(cosmetic.getType().getValue())))
+                .filter(cosmetic -> type == null || (cosmetic.getType() != null && type.equalsIgnoreCase(cosmetic.getType().getValue())))
                 .sorted((c1, c2) -> {
                     String chapter1 = c1.getIntroduction() != null ? c1.getIntroduction().getChapter() : "0";
                     String chapter2 = c2.getIntroduction() != null ? c2.getIntroduction().getChapter() : "0";
